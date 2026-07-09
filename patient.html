@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Patient registration form</title>
+        </head>
+        <body>
+            <h2>Patient details form</h2>
+            <p>please fill in all the required fields</p>
+            <form>
+                <label>Full name</label>
+                <input type="text" name="fullname"
+                    required><br><br>
+              <label>Email address</label>
+                <input type="email" name="phone" required><br><br>
+                <label>Phone number</label>
+                <input type="tel" name="phone" required><br><br>
+                <label>Date of birth</label><br>
+                <input type="date" name="dob" required><br><br>
+                <label>Gender</label><br>
+                <input type="radio" name="Gender" value="Male">
+                Male
+                 <input type="radio" name="Gender" value="female">
+                 female
+                 <input type="radio" name="Gender" value="other">
+                 other
+                 <br><br>
+                 <label>Services required </label><br>
+                 <input type="checkbox" name="Service"
+                 value="Consultation">Consultation<br>
+                 <input type="checkbox" name="Service"
+                  value="laboratory test">laboratory test<br>
+                  <input type="checkbox" name="Service"
+                 value="pharmacy">pharmacy<br><br>
+
+                <label>County of residence</label><br><br>
+                <select name="County">
+                    <option>Nairobi</option>
+                     <option>Kiambu</option>
+                      <option>Nakuru</option>
+                       <option>Mombasa</option>
+        
+                </select>
+                <br><br>
+
+                <label>Additional comments</label><br>
+                <textarea rows="4" cols="40"></textarea>
+
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            
+            </form>
+        </body>
+</html>
